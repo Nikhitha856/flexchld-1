@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    height: 40rem;
+    width: 60rem;
+    border: 4px solid;
+    gap: 2px;
+}
+.flex-child1{
+    height: 100px;
+    width: 100px;
+    flex-grow:1;
+background-color: blueviolet;
+}
+.flex-child2{
+    height: 100px;
+    width: 100px;
+    flex-grow:2;
+background-color:yellow;
+}
+.flex-child3{
+    height: 100px;
+    width: 100px;
+    flex-grow:0;
+background-color:red;
+}
